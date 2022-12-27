@@ -5,28 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1ad0f1-4363-42fd-9b4c-6d368c30d360" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/jameszimmerman/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/defect/assign-defect.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/defect/defect-status.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/defect/report-defect-negative.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/defect/report-defect-positive.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/login/login-negative.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/login/login-postitive.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/matrix/matrix.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/navigation/navigation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/testcases/testcases.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/FoundPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/foundRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/FoundStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LogNegImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/navigationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/DefectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/TestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/matrixPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DefectStatusImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/MatrixImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/TestCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/assignDefectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/reportDefectNegImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/reportDefectPosImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/FoundPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/FoundPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/foundRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/foundRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/FoundStepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FoundStepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LogNegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LogNegImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/navigationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/navigationImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +75,15 @@
       <recent name="C:\Users\zimme\scoop\apps\maven\3.8.6\bin\FoundationProject\src\test\java\feature" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.foundRunner">
-    <configuration name="Feature: login-negative" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Report New Defect">
+    <configuration name="Feature: assign-defect" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/login/login-negative.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/defect/assign-defect.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FoundationProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login-negative" />
+      <option name="SUGGESTED_NAME" value="Feature: assign-defect" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +95,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: navigation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: defect-status" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/navigation/navigation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/defect/defect-status.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FoundationProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: navigation" />
+      <option name="SUGGESTED_NAME" value="Feature: defect-status" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: report-defect-negative" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/defect/report-defect-negative.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FoundationProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: report-defect-negative" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Report New Defect" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/defect/report-defect-positive.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FoundationProject" />
+      <option name="NAME_FILTER" value="^Report New Defect$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Report New Defect$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Report New Defect" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,9 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Report New Defect" />
+        <item itemvalue="Cucumber Java.Feature: report-defect-negative" />
+        <item itemvalue="Cucumber Java.Feature: defect-status" />
         <item itemvalue="JUnit.foundRunner" />
-        <item itemvalue="Cucumber Java.Feature: navigation" />
-        <item itemvalue="Cucumber Java.Feature: login-negative" />
+        <item itemvalue="Cucumber Java.Feature: assign-defect" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +186,16 @@
       <updated>1671564874097</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FoundationProject$foundProjRunner.ic" NAME="foundProjRunner Coverage Results" MODIFIED="1671758564428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,6 +1,6 @@
 package page;
 
-import com.fasterxml.jackson.databind.AnnotationIntrospector;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,13 +8,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class FoundPage {
 
-    public static FoundPage nav;
     public WebDriver driver;
 
     public FoundPage(WebDriver driver){
       this.driver = driver;
       PageFactory.initElements(driver, this);
     }
+    @FindBy(xpath ="//p")
+    public WebElement message;
     @FindBy(xpath ="/html/body/div/fieldset/input[1]")
     public WebElement user;
 
@@ -33,16 +34,20 @@ public class FoundPage {
     @FindBy(xpath ="/html/body/div/nav/p/text()[3]")
     public WebElement lName;
 
-    //@FindBy(xpath = "//button[text()='Not Now']")
-    // public WebElement nButton;
-
-    @FindBy(xpath ="/html/body/div/nav/a[1]")
+    @FindBy(xpath = "/html/body/div/nav")
+    public WebElement n;
+    @FindBy(xpath = "//a[1]")
     public WebElement matrix;
+
+    @FindBy(xpath ="/html/body/div/h1")
+    public WebElement mP;
+    @FindBy(xpath = "//a[2]")
+    public WebElement testcase;
+    @FindBy(xpath = "//a[3]")
+    public WebElement defectR;
+    @FindBy(xpath = "//a[4]")
+    public WebElement defectO;
 
     @FindBy(xpath ="/html/body/div/nav/a[6]")
     public WebElement home;
-
-    @FindBy(xpath ="/html/body/div/nav/a[2]")
-    public WebElement testcase;
-
 }
