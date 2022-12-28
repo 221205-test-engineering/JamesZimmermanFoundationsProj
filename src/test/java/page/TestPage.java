@@ -36,7 +36,7 @@ public class TestPage {
     @FindBy(xpath ="/html/body/div/fieldset/button")
     public WebElement subMit;
 
-    @FindBy(linkText ="<a href=\"/testcases\">Test Cases</a>")
+    @FindBy(xpath ="//a[2]")
     public WebElement testCaseLink;
 
     @FindBy(xpath ="//tbody/tr[last()]/td[2]")

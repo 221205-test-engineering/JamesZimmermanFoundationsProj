@@ -1,0 +1,7 @@
+Defects:
+
+cannot navigate to all links medium sereirty high priority
+
+Defects report can be gibberish low severity high priority.
+
+Defect Report Steps can also be gibberish low severity high priority.

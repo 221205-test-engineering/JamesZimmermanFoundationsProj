@@ -24,8 +24,11 @@ public class MatrixImpl {
 
     @When("The manager chooses to create a new matrix")
     public void the_manager_chooses_to_create_a_new_matrix() {
+      //  new WebDriverWait(driver, Duration.ofSeconds(5))
+      //          .until(ExpectedConditions.elementToBeClickable(matrices.createM));
 
       matrices.createM.click();
+
     }
 
     @When("The manager creates a title for the matrix")

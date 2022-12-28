@@ -14,7 +14,7 @@ import page.TestPage;
 import page.matrixPage;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/feature",glue="steps")
+@CucumberOptions(features = "src/test/java/feature/testcases",glue="steps")
 public class foundRunner {
     public static WebDriver driver;
     public static FoundPage foundPage;

@@ -1,3 +1,4 @@
+/*
 package steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,23 +17,26 @@ import java.time.Duration;
 public class reportDefectNegImpl {
     public WebDriver driver = foundRunner.driver;
     public DefectPage defectP = foundRunner.defectP;
-    @Given("The employee is on the Defect Reporter Page")
+
+   @Given("The employee is on the Defect Reporter Page")
     public void the_employee_is_on_the_defect_reporter_page() {
         String DefectRe = "Defect Reporter";
         String DefRe = defectP.DefectRep.getText();
         Assert.assertEquals(DefRe, DefectRe);
     }
-    @When("The employee selects todays date")
-    public void the_employee_selects_todays_date() {
-        defectP.dateIn.click();
+
+
+  @When("The employee selects todays date")
+    //public void the_employee_selects_todays_date() {
+     //   defectP.dateIn.click();
     }
 
     @When("The employee types in description with")
-    public void the_employee_types_in_description_with(String docSign) {
-        defectP.description.sendKeys(docSign);
-    }
+      public void the_employee_types_in_description_with(String docSign) {
+       defectP.description.sendKeys(docSign);
+        }
 
-    @When("The employee types in Steps with")
+   @When("The employee types in Steps with")
     public void the_employee_types_in_steps_with(String docStep) {
         defectP.stepps.sendKeys(docStep);
     }
@@ -65,15 +69,17 @@ public class reportDefectNegImpl {
 
         driver.switchTo().alert().accept();
         String con = driver.switchTo().alert().getText();
-        Boolean confirm = false
+        Boolean confirm = false;
                 if(con != null){
                     confirm = true;
                 }
-                Assert.assertTrue(con);
+                Assert.assertTrue(confirm);
     }
 
-    @When("The employee types in steps with")
-    public void the_employee_types_in_steps_with(String docString) {
-        defectP.stepps.sendKeys("This is a test steps example");
-    }
+   @When("The employee types in steps with")
+   public void the_employee_types_in_steps_with(String docStep) {
+       defectP.stepps.sendKeys(docStep);
+   }
 }
+
+   */

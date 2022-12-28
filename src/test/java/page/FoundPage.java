@@ -35,19 +35,25 @@ public class FoundPage {
     public WebElement lName;
 
     @FindBy(xpath = "/html/body/div/nav")
-    public WebElement n;
+    public WebElement naV;
+
+    @FindBy(xpath ="/html/body/div/nav")
+    public WebElement navLinks;
     @FindBy(xpath = "//a[1]")
-    public WebElement matrix;
+    public WebElement mL;
+
+    @FindBy(linkText="testcases")
+    public WebElement tL;
+
+    @FindBy(xpath = "//a[3]")
+    public WebElement rL;
+
+    @FindBy(xpath = "//a[4]")
+    public WebElement oL;
 
     @FindBy(xpath ="/html/body/div/h1")
     public WebElement mP;
-    @FindBy(xpath = "//a[2]")
-    public WebElement testcase;
-    @FindBy(xpath = "//a[3]")
-    public WebElement defectR;
-    @FindBy(xpath = "//a[4]")
-    public WebElement defectO;
 
-    @FindBy(xpath ="/html/body/div/nav/a[6]")
+    @FindBy(xpath ="/html/body/div/h1")
     public WebElement home;
 }

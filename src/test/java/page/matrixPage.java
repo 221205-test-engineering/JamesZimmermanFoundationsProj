@@ -12,8 +12,7 @@ public class matrixPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
-    @FindBy(xpath ="/html/body/div/button")
+    @FindBy(xpath ="//button")
     public WebElement createM;
 
     @FindBy(xpath ="/html/body/div/input")

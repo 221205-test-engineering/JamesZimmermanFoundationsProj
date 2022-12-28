@@ -36,6 +36,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/page/FoundPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/steps/navigationImpl.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -63,7 +67,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zimme/scoop/apps/maven/3.8.6/bin/CucumberSeleniumDemo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zimme/scoop/apps/maven/3.8.6/bin/demos/week-4/grocery-list-demo&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -75,7 +79,7 @@
       <recent name="C:\Users\zimme\scoop\apps\maven\3.8.6\bin\FoundationProject\src\test\java\feature" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Report New Defect">
+  <component name="RunManager" selected="JUnit.foundRunner">
     <configuration name="Feature: assign-defect" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/feature/defect/assign-defect.feature" />
@@ -168,10 +172,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.foundRunner" />
         <item itemvalue="Cucumber Java.Scenario: Report New Defect" />
         <item itemvalue="Cucumber Java.Feature: report-defect-negative" />
         <item itemvalue="Cucumber Java.Feature: defect-status" />
-        <item itemvalue="JUnit.foundRunner" />
         <item itemvalue="Cucumber Java.Feature: assign-defect" />
       </list>
     </recent_temporary>
