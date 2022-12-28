@@ -1,7 +1,10 @@
 Defects:
 
-cannot navigate to all links medium sereirty high priority
+cannot navigate to all links medium sereirty high priority 806
 
-Defects report can be gibberish low severity high priority.
 
-Defect Report Steps can also be gibberish low severity high priority.
+Defects report can be gibberish low severity high priority. 813
+
+
+Defect Report Steps can also be gibberish low severity high priority. 814
+
